@@ -1,36 +1,57 @@
 <!doctype html>
-
 <html>
+<head>
+  <title>Interactive Story</title>
 
-  <head>
-
-    <title>Interactive Story</title>
-     <style>
+  <style>
     body {
       background-image: url('background-image1.jpg');
       background-size: cover;
+      background-position: center;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
     }
-</style>
 
-  </head>
+    .headline {
+      color: red;
+      border: 4px solid red;
+      padding: 20px 30px;
+      display: inline-block;
+      margin-top: 40px;
+      background-color: rgba(0, 0, 0, 0.6); /* helps text pop */
+    }
 
-  <body>
+    h2 {
+      margin-top: 30px;
+      letter-spacing: 2px;
+    }
 
-     <h1 style="color:red; align:center;">What’s your must have movie night food? I’ll suggest Asian movies & shows!</h1>
+    ul {
+      list-style: none;
+      padding: 0;
+    }
 
-<br>
+    li {
+      margin: 10px 0;
+    }
+  </style>
+</head>
 
-<h2>START NOW</h2>
+<body>
 
-<ul>
+  <h1 class="headline">
+    What’s your must have movie night food? I’ll suggest Asian movies & shows!
+  </h1>
 
-<li>Homework #1</li>
+  <h2>START NOW</h2>
 
-<li>Homework #2</li>
+  <ul>
+    <li>Homework #1</li>
+    <li>Homework #2</li>
+    <li>Homework #3</li>
+  </ul>
 
-<li>Homework #3</li>
-
-</ul>
-
- </body>
+</body>
 </html>
