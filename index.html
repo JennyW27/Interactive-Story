@@ -20,21 +20,27 @@
       padding: 20px 30px;
       display: inline-block;
       margin-top: 40px;
-      background-color: rgba(0, 0, 0, 0.6); /* helps text pop */
+      background-color: rgba(0, 0, 0, 0.6);
     }
 
-    h2 {
+    .start-button {
+      display: inline-block;
       margin-top: 30px;
+      padding: 15px 40px;
+      font-size: 20px;
       letter-spacing: 2px;
+      color: white;
+      text-decoration: none;
+      border: 3px solid white;
+      border-radius: 30px;
+      background-color: rgba(0, 0, 0, 0.7);
+      transition: all 0.3s ease;
     }
 
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    li {
-      margin: 10px 0;
+    .start-button:hover {
+      background-color: red;
+      border-color: red;
+      transform: scale(1.05);
     }
   </style>
 </head>
@@ -45,13 +51,11 @@
     What’s your must have movie night food? I’ll suggest Asian movies & shows!
   </h1>
 
-  <h2>START NOW</h2>
+  <br>
 
-  <ul>
-    <li>Homework #1</li>
-    <li>Homework #2</li>
-    <li>Homework #3</li>
-  </ul>
+  <!-- Button -->
+  <a href="page2.html" class="start-button">START NOW</a>
 
 </body>
 </html>
+
