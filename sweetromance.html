@@ -1,28 +1,85 @@
 <!doctype html>
-
 <html>
+<head>
+  <title>Sweet Romance / Melodrama Movie</title>
 
-  <head>
+  <!-- Same game-style font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <title>Sweet Romance/Melodrama Movie</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background-color: black;
+      color: white;
+      font-family: 'Press Start 2P', cursive;
+      text-align: center;
 
-  </head>
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
 
-  <body>
+    h1 {
+      color: red;
+      border: 4px solid red;
+      padding: 20px 30px;
+      background-color: rgba(0, 0, 0, 0.8);
+      max-width: 80%;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
 
-    <h1>Here is the your recommendation</h1>
+    img {
+      width: 500px;        /* medium-big image */
+      max-width: 85%;
+      border: 3px solid white;
+      margin: 20px 0;
+    }
 
-    <p>Movie Name: Drowning Love</p>
-    <br>
-    <img src="drowninglove.webp" alt="Drowning Love" width="500">
-    <br>
-   <p>Rating: 
-   <br>
-   Reviews:</p>
-  <br><br>
-    
-    <a href="moviegenre.html">Back to last page</a>
+    p {
+      font-size: 12px;
+      line-height: 1.6;
+    }
 
-  </body>
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      color: white;
+      text-decoration: none;
+      border: 3px solid white;
+      border-radius: 30px;
+      background-color: black;
+      font-size: 12px;
+      transition: all 0.25s ease;
+    }
 
+    a:hover {
+      background-color: red;
+      border-color: red;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Your Recommendation</h1>
+
+  <p><strong>Movie Name:</strong><br>Drowning Love</p>
+
+  <img src="drowninglove.webp" alt="Drowning Love">
+
+  <p>
+    <strong>Rating:</strong><br>
+    ★★★☆☆<br><br>
+    <strong>(Personal) Reviews:</strong><br>
+    This is a sweet Japanese romance movie to enjoy. I enjoy the visuals a little more than the plot, but it becomes more engaging towards the end with a plot twist. It is emotional, striking with a bittersweet tone, and can be metaphorical based on personal interpretation.
+  </p>
+
+  <a href="moviegenre.html">← Back to Genre Selection</a>
+
+</body>
 </html>
