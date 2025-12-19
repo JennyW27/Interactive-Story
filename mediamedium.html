@@ -1,37 +1,101 @@
 <!doctype html>
-
 <html>
+<head>
+  <title>Media Medium</title>
 
-  <head>
+  <!-- Same game-style font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <title>Media Medium</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background-color: black;
+      color: white;
+      font-family: 'Press Start 2P', cursive;
+      text-align: center;
 
-  </head>
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
 
-  <body>
+    h1 {
+      color: red;
+      border: 4px solid red;
+      padding: 20px 30px;
+      background-color: rgba(0, 0, 0, 0.8);
+      max-width: 80%;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
 
-    <h1>How do you watch your movies, dramas, and shows?</h1>
+    .option {
+      margin: 30px 0;
+    }
 
-    <p>Please choose one from below
-    <br>
-    Television</p>
-    <img src="television.jpg" alt="Television" width="500">
+    img {
+      width: 300px;
+      max-width: 80%;
+      border: 3px solid white;
+      margin: 10px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 25px;
+      color: white;
+      text-decoration: none;
+      border: 3px solid white;
+      border-radius: 30px;
+      background-color: black;
+      font-size: 12px;
+      transition: all 0.25s ease;
+    }
+
+    a:hover {
+      background-color: red;
+      border-color: red;
+      transform: scale(1.05);
+    }
+
+    .back {
+      margin-top: 40px;
+      font-size: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>How do you watch your movies, dramas, and shows?</h1>
+
+  <div class="option">
+    <p>Television</p>
+    <img src="television.jpg" alt="Television">
     <br>
     <a href="moviegenre.html">Choose Television</a>
-    <br>
+  </div>
+
+  <div class="option">
     <p>Laptop</p>
-    <img src="laptop.jpg" alt="Laptop" width="500">
+    <img src="laptop.jpg" alt="Laptop">
     <br>
     <a href="moviegenre.html">Choose Laptop</a>
-    <br>
+  </div>
+
+  <div class="option">
     <p>Phone</p>
-    <img src="phone.jpg" alt="Phone" width="500">
+    <img src="phone.jpg" alt="Phone">
     <br>
     <a href="moviegenre.html">Choose Phone</a>
-    <br><br>
+  </div>
 
-    <a href="page2.html">Back to last page</a>
+  <div class="back">
+    <a href="page2.html">← Back to Last Page</a>
+  </div>
 
-  </body>
-
+</body>
 </html>
